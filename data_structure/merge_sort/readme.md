@@ -4,6 +4,9 @@ trace the algorithm by stepping through the process with the provided sample arr
 
 her the [**Blog**](../merge_sort/BLOG.md) that descripe how the function work
 
+
+pull request: https://github.com/adhammhaydat/data-structures-and-algorithms401/pull/1
+
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 ![](../merge_sort/img/whiteboard.jpg)
