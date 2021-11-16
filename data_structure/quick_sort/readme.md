@@ -4,7 +4,7 @@ trace the algorithm by stepping through the process with the provided sample arr
 
 her the [**Blog**](../quick_sort/BLOG.md) that descripe how the function work
 
-
+pull req: https://github.com/adhammhaydat/data-structures-and-algorithms401/pull/2
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
