@@ -7,8 +7,10 @@ def merge_sort(arr):
         left = arr[0:mid]
         right = arr[mid:n]
     #   // sort the left side
+        print ("left",left)
         merge_sort(left)
     #   // sort the right side
+        print("right",right)
         merge_sort(right)
     #   // merge the sorted left and right sides together
         return Merge(left, right, arr)
@@ -25,15 +27,16 @@ def Merge(left, right, arr):
         else:
             arr[k] = right[j]
             j = j + 1
-
+        
         k = k + 1
-
-    while i < len(left):
+    print("left merge: ", left)
+    print("right merge: ", right)
+    if i < len(left):
             arr[k] = left[i]
             i += 1
             k += 1
   
-    while j < len(right):
+    elif j < len(right):
             arr[k] = right[j]
             j += 1
             k += 1
