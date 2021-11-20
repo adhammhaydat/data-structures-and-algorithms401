@@ -3,6 +3,9 @@
 
 In computing, a hash table (hash map) is a data structure that implements an associative array abstract data type, a structure that can map keys to values.
 
+## pull req:
+
+https://github.com/adhammhaydat/data-structures-and-algorithms401/pull/3
 
 ## Challenge
 <!-- Description of the challenge -->
