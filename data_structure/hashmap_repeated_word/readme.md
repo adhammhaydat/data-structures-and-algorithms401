@@ -6,7 +6,8 @@ Write a function called repeated word that finds the first word to occur more th
 * Arguments: string
 * Return: string
 
-pull request: 
+pull request: https://github.com/adhammhaydat/data-structures-and-algorithms401/pull/4
+
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 
