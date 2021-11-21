@@ -7,4 +7,4 @@
 | Merge-Sort    | [view page](data_structure/merge_sort/readme.md) |
 | Quick_sort    | [view page](data_structure/quick_sort/readme.md) |
 | Hash Table    | [view page](data_structure/hashtable/readme.md) |
-| Repeated word    | [view page](data_structure/hashtable/readme.md) |
+| Repeated word    | [view page](data_structure/hashmap_repeated_word/readme.md) |
