@@ -1,8 +1,3 @@
-"""
-The implementation of Node class, Linked list class, and Hashmap class. 
-"""
-
-
 class Node:
     def __init__(self, value=None, next_=None):
         """
@@ -56,32 +51,15 @@ class HashTable:
           self.__buckets[index] = LinkedList()
         my_value = [key,value]
         self.__buckets[index].insert(my_value)
+        return index
 
-    def get(self, key):
-      """
-      Retrieve the most recent value of in oour hasmap for the given key
-
-      :param key str
-      :rvalue any
-      """
-      # calculate index
-      index = self.__hash(key)
-      # check if there is a non empty bucket at the index
-      if self.__buckets[index]:
-        # iterate over linked list
-        linked_list = self.__buckets[index]
-        current = linked_list.head
-        while current:
-          # check if the key in each node matches
-          if current.value[0] == key: 
-            # return the value of the node with the mathcing key
-            return current.value[1]
-          current = current.next
-        
-      # return None
-      return None
-      
-    def contains(self, key):
-      index = self.__hash(key)
-
-      return True if self.__buckets[index] else False
+def repeated_word(string):
+    arr_of_index=[]
+    hash_map=HashTable()
+    list=string.split(' ')
+    for word in list:
+        word=word.lower().strip(',')
+        index = hash_map.add(word,word)
+        if index in arr_of_index:
+            return word
+        arr_of_index.append(index)
