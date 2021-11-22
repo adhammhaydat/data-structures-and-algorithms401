@@ -17,8 +17,6 @@ def test_tree_intersection():
     c_node.right = g_node
     tree1.root=a_node
     
-
-
     tree2=BinaryTree()
     a_node = Node('1')
     b_node = Node('8')
@@ -34,3 +32,8 @@ def test_tree_intersection():
     c_node.left = f_node
     c_node.right = g_node
     tree2.root=a_node
+
+    expected = ['1', '4', '5', '6', '7']
+
+    actual = tree_intersection(tree1, tree2)
+    assert actual == expected
