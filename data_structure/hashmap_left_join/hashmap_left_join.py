@@ -58,6 +58,10 @@ class HashTable():
 
 
 def left_join_hash(ht_one, ht_two):
+    if not ht_one:
+        return ht_two
+    if not ht_two:
+        return ht_one    
     output = []
     for key in ht_one.keys():
         if key in ht_two.keys():
