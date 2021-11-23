@@ -71,18 +71,6 @@ def left_join_hash(ht_one, ht_two):
     return output
 
 
-ht_one = HashTable()
-ht_one.add("1", "1")
-ht_one.add("2", "1")
-ht_one.add("3", "1")
-ht_one.add("4", "1")
-ht_one.add("5", "1")
 
-ht_two = HashTable()
-ht_two.add("1", "1")
-ht_two.add("2", "1")
-ht_two.add("3", "1")
-ht_two.add("4", "1")
-ht_two.add("5", "1")
 
-print(left_join_hash(ht_one, ht_two))
+
