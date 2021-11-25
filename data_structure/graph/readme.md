@@ -3,6 +3,8 @@
 
 A graph is a non-linear kind of data structure made up of nodes or vertices and edges. The edges connect any two nodes in the graph, and the nodes are also known as vertices.
 
+pull req: https://github.com/adhammhaydat/data-structures-and-algorithms401/pull/7
+
 ## Challenge
 <!-- Description of the challenge -->
 Implement your own Graph. The graph should be represented as an adjacency list
