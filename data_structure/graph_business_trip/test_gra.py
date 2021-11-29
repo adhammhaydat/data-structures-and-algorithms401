@@ -17,4 +17,4 @@ def test_business_trip():
   graph.add_edge(v4,v6,73)
   graph.add_edge(v5,v6,250)
   cities_one_two_three = [v1,v2,v3]
-  assert graph.business_trip(cities_one_two_three) == (True, '$249')
+  assert business_trip(graph,cities_one_two_three) == (True, '$249')

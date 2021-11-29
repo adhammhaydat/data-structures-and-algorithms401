@@ -64,11 +64,11 @@ class Graph():
     return output
 
 
-  def business_trip(self,cities:list):
+def business_trip(graph,cities:list):
     sum = 0
     flag = False
     for i in range(len(cities)-1):
-        neighbors = self._adjacency_list[cities[i]]
+        neighbors = graph._adjacency_list[cities[i]]
         print(neighbors)
         for neighbor in neighbors:
           if cities[i+1] == neighbor[0]:
@@ -102,4 +102,4 @@ graph.add_edge(v3,v6,26)
 graph.add_edge(v4,v6,73)
 graph.add_edge(v5,v6,250)
 cities_one_two_three = [v1,v2,v3]
-graph.business_trip(cities_one_two_three)  
+business_trip(graph,cities_one_two_three)  
