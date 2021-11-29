@@ -4,6 +4,7 @@ Write a function called business trip
 Arguments: graph, array of city names
 Return: cost or null
 
+pull req: https://github.com/adhammhaydat/data-structures-and-algorithms401/pull/9
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
