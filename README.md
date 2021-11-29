@@ -12,3 +12,4 @@
 | Hashmap left join    | [view page](data_structure/hashmap_left_join/readme.md) |
 | Graph    | [view page](data_structure/graph/readme.md) |
 | Breadth-First    | [view page](data_structure/graph_breadth_first/readme.md) |
+| Graph business trip    | [view page](data_structure/graph_business_trip/readme.md) |
